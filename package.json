@@ -10,7 +10,7 @@
     "git:merge:mirror": "node .git-merge.js mirror main",
     "client:dev": "cd client && npm run dev",
     "client:build": "cd client && npm run build",
-    "lint": "cd server && npm run lint && cd ../server && npm run lint",
+    "lint": "cd client && npm run lint && cd ../server && npm run lint",
     "tsc": "cd client && npm run tsc && cd ../server && npm run tsc",
     "server:dev": "cd server && npm run dev",
     "server:build": "cd server && npm run build",
