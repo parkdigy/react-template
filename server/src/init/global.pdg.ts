@@ -13,6 +13,7 @@ import type {
 } from '@pdg/types';
 import {
   empty as _empty,
+  ifEmpty as _ifEmpty,
   notEmpty as _notEmpty,
   equal as _equal,
   contains as _contains,
@@ -66,6 +67,7 @@ declare global {
 
   /** compare */
   var empty: typeof _empty;
+  var ifEmpty: typeof _ifEmpty;
   var notEmpty: typeof _notEmpty;
   var equal: typeof _equal;
   var contains: typeof _contains;
@@ -109,6 +111,7 @@ declare global {
 
 /** compare */
 globalThis.empty = _empty;
+globalThis.ifEmpty = _ifEmpty;
 globalThis.notEmpty = _notEmpty;
 globalThis.equal = _equal;
 globalThis.contains = _contains;
