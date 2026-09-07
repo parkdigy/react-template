@@ -5,6 +5,7 @@
     "moduleResolution": "node",
     "strict": true,
     "noImplicitAny": true,
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "preserveSymlinks": true,
     "baseUrl": "./",
