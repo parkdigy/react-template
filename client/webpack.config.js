@@ -101,7 +101,7 @@ const options = {
         context: ['/api'],
         target: env.API_URL,
         changeOrigin: true,
-        pathRewrite: { '^/api': '/' },
+        pathRewrite: { '^/api': '' },
       },
     ],
   },
