@@ -4,6 +4,8 @@
 
 # publish
 # 배포 시 publish/development, publish/staging, publish/production Branch 생성하고 모두 주석 해제
+#PUB#/.agents
+#PUB#/_workspace
 #PUB#/client/patches
 #PUB#/client/public
 #PUB#/client/src
@@ -15,6 +17,7 @@
 #PUB#/client/package.json
 #PUB#/client/tsconfig.json
 #PUB#/client/webpack.config.js
+#PUB#/docs
 #PUB#/server/src
 #PUB#/server/.prettierignore
 #PUB#/server/.prettierrc.mjs
@@ -24,12 +27,12 @@
 #PUB#.env.example
 #PUB#.git-commit.js
 #PUB#.git-merge.js
-#PUB#.eslintignore
 #PUB#.gitmodules
 #PUB#.prettierignore
 #PUB#.prettierrc.mjs
 #PUB#.publish.js
 #PUB#.publish_make.js
+#PUB#AGENTS.md
 #PUB#eslint.config.mjs
 #PUB#jest.config.ts
 #PUB#README.md
