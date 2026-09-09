@@ -22,7 +22,7 @@
 #PUB#/server/src
 #PUB#/server/.prettierignore
 #PUB#/server/.prettierrc.mjs
-#PUB#/client/eslint.config.mjs
+#PUB#/server/eslint.config.mjs
 #PUB#/server/tsconfig.json
 #PUB#/server/tsconfig.tsbuildinfo
 #PUB#/server/webpack.config.js
