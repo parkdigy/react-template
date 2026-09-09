@@ -12,6 +12,7 @@
     "client:build": "cd client && npm run build",
     "lint": "cd client && npm run lint && cd ../server && npm run lint",
     "tsc": "cd client && npm run tsc && cd ../server && npm run tsc",
+    "verify": "npm run lint && npm run tsc",
     "server:dev": "cd server && npm run dev",
     "server:build": "cd server && npm run build",
     "server:build:win": "cd server && npm run build:win",

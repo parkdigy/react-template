@@ -2,7 +2,7 @@ import './init';
 
 import express from 'express';
 import session from 'express-session';
-import RedisStore from 'connect-redis';
+import { RedisStore } from 'connect-redis';
 import { createClient } from 'redis';
 import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
@@ -106,7 +106,7 @@ let realVersion = Version;
 app.get('/api/version/app', function (req, res) {
   realVersion.app(req, res);
 });
-app.get('/api/*/version/app', function (req, res) {
+app.get(/^\/api\/.*\/version\/app$/, function (req, res) {
   realVersion.app(req, res);
 });
 
@@ -163,7 +163,7 @@ app.use(
   })
 );
 
-app.get('*', (req, res) => {
++app.get(/./, (req, res) => {
   res.render('index', {
     title: process.env.APP_NAME,
     appEnv: process.env.APP_ENV,
