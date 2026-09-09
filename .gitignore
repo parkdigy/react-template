@@ -16,6 +16,7 @@
 #PUB#/client/eslint.config.mjs
 #PUB#/client/package.json
 #PUB#/client/tsconfig.json
+#PUB#/client/tsconfig.tsbuildinfo
 #PUB#/client/webpack.config.js
 #PUB#/docs
 #PUB#/server/src
@@ -23,6 +24,7 @@
 #PUB#/server/.prettierrc.mjs
 #PUB#/client/eslint.config.mjs
 #PUB#/server/tsconfig.json
+#PUB#/server/tsconfig.tsbuildinfo
 #PUB#/server/webpack.config.js
 #PUB#.env.example
 #PUB#.git-commit.js
