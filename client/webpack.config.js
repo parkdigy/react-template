@@ -102,7 +102,9 @@ const options = {
         target: env.API_URL,
         changeOrigin: true,
         pathRewrite: { '^/api': '' },
-        logLevel: 'warn',
+        logger: {
+          info: () => {},
+        },
       },
     ],
   },
